@@ -1,2 +1,2 @@
 # Hojasestilo.html
-<tittle> Desarrollo web</tittle>
+<H1> DESARROLLO WEB CON HTML Y CSS</H1>
