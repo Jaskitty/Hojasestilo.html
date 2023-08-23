@@ -1,42 +1,107 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hoja de estilos</title>
-    <style>
-        p.dotted{border-style: dotted}
-        p.dashed{border-style: dashed}
-        p.solid{border-style: solid}
-        p.double{border-style: double}
-        p.groove{border-style: groove}
-        p.ridge{border-style: ridge}
-        p.inset{border-style: inset}
-        p.outset{border-style: outset}
-        p.none{border-style: none}
-        p.hidden{border-style: hidden}
-        p.mix{border-style: dotted dashed solid double;}
-
- p.uno{border-solid:solid ;
-       border-style:dashed;
-       border-width:5px ;
-       border-color:rgb(109, 65, 161);
-    }
-
- p.dos{border-style:solid;
-           border-width:medium;
-       }
-
- p.tres{border-style:dotted;
-     border-width:2px;
- }
-
- p.cuatro{border-style:dotted;
-     border-width:2px;
- }
- </style>
-   <p class="dos"> A dotted bode. </p>
-    <p class="dos"> A dotted bode. </p>
-    <p class="cuatro"> A dotted bode. </p>
-    <p class="uno"> A dotted bode. </p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Frilans</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <header>
+        <h1 class="titulo"> Jasminn Santamaria<span> Frelancer</span></h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion">
+            <a href="">Inicio</a>
+            <a href="">Acerca de mi</a>
+            <a href="">Clientes</a>
+            <a href="">Contactos</a>
+        </nav>
+    </div>
+    <!--esta parte de aca nos dice para separar grupos para darles estilo y acomodarlos para que se vea mejor-->
+    <section class="heroe">
+        <div class="contenedor-heroe">
+            <h2>Diseño y desarollo web<span>fremeil</span> </h2>
+            <div class="ubicacion">
+                ubicaciòn
+            </div>
+            <a href="">Contactar</a>
+        </div>
+    </section>
+    <main>
+     <section>
+        <h3>Diseño web</h3>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium illum voluptate doloremque, .</p>
+        </div>
+     </section>   
+    </section>
+    <main class="contenedor sombra">
+        <h2>Servicios</h2>
+        <div  class="servicios">
+            <section class="servicios">
+                <div class="icono">
+                <h3 >Diseño web</h3>
+                </div>   
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium illum voluptate doloremque, .</p>
+             </section>  
+
+                <h3>Aplicaciones web</h3>
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium illum voluptate doloremque, .</p>
+                </div>
+             </section>   
+            </section>
+            <main>
+             <section>
+                <h3>
+                    Android
+                    Apple
+                </h3>
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium illum voluptate doloremque, .</p>
+                </div>
+             </section>   
+            </section>
+            <main>
+             <section>
+               
+            </section>   
+        </section>
+        <main>
+         <section>
+            <h3>Contacto</h3>
+            <form action="" class="formulario">
+                <fieldset>
+                <legend>Contactanos rellenando este formulario</legend>
+                <div class="contenedor-campos">
+                <label for="nombre">Nombre:</label>
+                <input type="text"  placeholder="ingresa tu nombre">
+            </div>
+            <div class="campo">
+                <label for="nombre">Telefono:</label>
+                <input type="text"  placeholder="tu telefono">
+            </div>
+            <div class="campo">
+                <label for="nombre">Correo:</label>
+                <input type="email"  placeholder="tu correo aqui">
+            </div>
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="mensaje admite 300 caracteres"></textarea>
+            </div> 
+
+            <div class="alinear-derecha flex">
+             <input class="boton w-sm-100" type="submit" value="Registrar">
+            </div>
+            </fieldset>
+            </form>
+         </section> 
+        </div>
+        
+    </main>
+    <footer class="footer">
+<p>Todos los derechos  reservados. Agel Gamarra Filanders</p>
+    </footer>
+</body>
 </html>

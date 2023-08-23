@@ -1,0 +1,57 @@
+html{font-size: 62%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+.servicio,
+.navegacion-principal,
+.formulario{ scroll-snap-align: center;
+            scroll-snap-stop:always;}
+
+body{font-size: 16px;
+      font-family:'krub' sans-serif;
+      background-image:radial-gradient(pink,rgb(143, 97, 204),blue) ;}
+
+.contenedor{
+    max-width: 120em;
+    margin: auto;
+    }
+
+.boton{background-color: aquamarine;
+       padding: 1em  3rem;
+       margin-top: 2rem;
+       text-decoration: none;
+       text-transform: uppercase;
+       font-weight: bold;
+       border-radius: 5rem;
+       width: 90%;
+       text-align: center;
+       border: none;
+    }
+
+/*medida para dispositivos de 768 pixeles*/
+@media(min-width:768px){
+.boton{width: auto;
+       }
+    }
+.heroe{
+    background-image: url(xb9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.contenedor-heroe{
+    position: absolute;
+    background-color: rgba(0,0,0,7);
+    background-color: rgb(0 0 0  /  70%);
+    width:  100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
